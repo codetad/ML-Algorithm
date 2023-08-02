@@ -1,4 +1,3 @@
-#ST509_Midterm_2023020399
 # unpenalized poisson regression
 UP_poisson <- function(X,y, init=NULL, max.iter = 100, eps = 1.0e-3)
 {
