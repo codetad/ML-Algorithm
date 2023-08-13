@@ -1,6 +1,6 @@
 /*
 bipartite detection
-201612980 °íÁ¤Çö
+201612980 Â°Ã­ÃÂ¤Ã‡Ã¶
 */
 
 #include <iostream>
