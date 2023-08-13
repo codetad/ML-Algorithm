@@ -2,7 +2,7 @@
 #include<cstdio>
 /*
 Dij
-201612980 °íÁ¤Çö
+201612980 ê³ ì •í˜„
 */
 using namespace std;
 
@@ -107,9 +107,9 @@ void PQ::print(int C, int depth, int LR)
 }
 
 pair <int, int> LK[100][100];
-int S[100]; // ¸µÅ©°¡ ¸î °³ ÀÖ³Ä¸¦ ÀÇ¹Ì
-int D[100]; //³ëµå¸¶´Ù shortest pathÀÇ ±æÀÌ¸¦ ÀÇ¹Ì
-int R[100]; //Red Ç¥½Ã
+int S[100]; // ë§í¬ê°€ ëª‡ ê°œ ìˆëƒë¥¼ ì˜ë¯¸
+int D[100]; //ë…¸ë“œë§ˆë‹¤ shortest pathì˜ ê¸¸ì´ë¥¼ ì˜ë¯¸
+int R[100]; //Red í‘œì‹œ
 
 int n, m;
 
@@ -122,9 +122,9 @@ int main()
 	PQ Q;
 	scanf("%d %d", &n, &m);
 	for (i = 1; i < n; i++)
-		S[i] = 0; // ÀÏ´Ü ¸µÅ©°¡ ¾ø´Ù°í ÇÔ
+		S[i] = 0; // ì¼ë‹¨ ë§í¬ê°€ ì—†ë‹¤ê³  í•¨
 	for (i = 1; i <= m; i++){
-		scanf("%d %d %d", &p, &q, &r); // p¹ø³ëµå¿¡¼­ q¹ø³ëµå·Î °¡´Â rÂ¥¸® ¸µÅ©°¡ ÀÖ´Ù
+		scanf("%d %d %d", &p, &q, &r); // pë²ˆë…¸ë“œì—ì„œ që²ˆë…¸ë“œë¡œ ê°€ëŠ” rì§œë¦¬ ë§í¬ê°€ ìˆë‹¤
 		S[p]++;
 		LK[p][S[p]].first = q;
 		LK[p][S[p]].second = r;
@@ -144,7 +144,7 @@ int main()
 		printf("\n");
 		Q.print(1, 0, 0);
 		scanf("%c", &c);
-		t = Q.Delete(); // Q: weight, node ¹øÈ£
+		t = Q.Delete(); // Q: weight, node ë²ˆí˜¸
 		r = t.first;
 		q = t.second;
 		if (R[q] == 1) continue;
@@ -162,11 +162,11 @@ int main()
 }
 
 /*
-* ÀÔ·Â
+* ì…ë ¥
 * 
-Node 6°³e edge 9°³
-1¹ø¿¡¼­ 2¹øÀ¸·Î 4(1 2 4)
-1¹ø¿¡¼­ 3¹øÀ¸·Î 2(1 3 2)
+Node 6ê°œe edge 9ê°œ
+1ë²ˆì—ì„œ 2ë²ˆìœ¼ë¡œ 4(1 2 4)
+1ë²ˆì—ì„œ 3ë²ˆìœ¼ë¡œ 2(1 3 2)
 3 2 1
 2 4 5
 3 4 1
@@ -175,6 +175,6 @@ Node 6°³e edge 9°³
 4 6 6
 5 6 3
 
-(¤±Aother Example ½½¶óÀÌµå¿Í ¿ÏÀüÈ÷ °°À½)
-´ä: 0 2 3 8 10 13
+(ã…Aother Example ìŠ¬ë¼ì´ë“œì™€ ì™„ì „íˆ ê°™ìŒ)
+ë‹µ: 0 2 3 8 10 13
 */
