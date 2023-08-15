@@ -1,4 +1,23 @@
-# Statistical Machine Learning
+# Data Structure, Algorithms, and Machine Learning
 
-1. SVR
-2. Poisson regressions with penalties
+# Data Structure
+AVL_tree
+Binary Search Tree
+Equivalence Class
+Linked List
+MST
+PQ
+Packed/ Unpacked
+UnionFind
+
+
+# Algorithms
+Bipartite Detection
+Dijkstra
+
+
+# ML prototypes
+Poisson Regerssions with Penalty
+-Ridge, Lasso, SCAD, ElasticNet
+Support Vector Machine
+ADMM
