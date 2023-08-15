@@ -1,8 +1,10 @@
 # Data Structure, Algorithms, and Machine Learning
 
+자료구조, 알고리즘(.cpp) <br/>
+머신러닝 프로토타입(.py) <br/>
 # Data Structure
 AVL_tree<br/>
-Binary Search Tree<br/>  
+Binary Search Tree<br/>
 Equivalence Class <br/>
 Linked List  <br/>
 MST  <br/>
