@@ -16,7 +16,8 @@ UnionFind  <br/>
 # Algorithms
 Bipartite Detection  <br/>
 Dijkstra  <br/>
-  
+  <br/>
+  <br/>  
   
 # ML prototypes
 Poisson Regerssions with Penalty  <br/>
